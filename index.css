@@ -20,6 +20,13 @@ h1{
 h2{
     font-size: 3rem;
 }
+h3{
+    font-size: 3rem;
+}
+h4{
+    font-size: 2rem;
+    font-weight: 300;
+}
 div{
     margin: 0%;
     padding: 0%;
@@ -108,4 +115,29 @@ section{
     font-size: 1.2rem;
     background-color: #003049;
     border-radius: 100px;
+}
+#about{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.profile-img{
+    height: 90vh;
+    width: 30vw; 
+    background-image: url("assets/image/saran.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+
+}
+.about-content{
+    height: 90vh;
+    width: 70vw;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: aliceblue;
+    background-color: #669bbc;
+    border-radius: 10px;
 }
