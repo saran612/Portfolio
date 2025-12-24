@@ -1,0 +1,147 @@
+@font-face {
+    font-family: lequire;
+    src: url('./assets/font/Lequire.otf');
+}
+@font-face {
+    font-family: sarcolenta;
+    src: url('./assets/font/Sarcolenta.ttf');
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    overflow-x: hidden;
+    font-family: "Roboto", sans-serif;
+}
+a,a:visited{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+li{
+    list-style: none;
+}
+section{
+    padding: 0 50px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+#menu{
+    position: fixed;
+    background-color: #f0f0f0;
+    left: 0;
+    right: 0;
+    padding: 0 60px;
+    height: 50px;
+}
+#home{
+    align-items: center;
+    gap: 20px;
+}
+.name{
+    font-family: lequire;
+    font-weight: 200;
+}
+.title{
+    font-size: 5rem;
+}
+.sub-title,.project-info{
+    font-size: 3rem;
+    font-family: sarcolenta;
+}
+.button-container{
+    display: flex;
+    gap: 50px;
+}
+.button-container div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 40px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 100px;
+    color: #f0f0f0;
+    background-color: #333;
+    transition: all 0.3s ease;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, .300);
+}
+.button-container div:hover{
+    background-color: #000000;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, .000);
+}
+#about{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.profile-pic{
+    width: 33vw;
+    height: 70%;
+    border-radius: 10px;
+    background-image: url('./assets/image/saran.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .300);
+}
+.profile-des{
+    width: 77vw;
+    height: 70%;
+    font-size: 1.4rem;
+}
+#project{
+    align-items: center;
+}
+#project div{
+    margin-bottom: 50px;
+}
+.project-cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.project-card{
+    padding: 20px;
+    background-color: rgba(180, 180, 180, 0.500);
+    border-radius: 10px;
+}
+.project-img{
+    width: 28vw;
+    height: 18vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.project-title{
+    font-family: sarcolenta;
+    font-size: 2rem;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.contact-info{
+    font-size: 5rem;
+}
